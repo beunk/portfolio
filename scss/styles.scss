@@ -460,6 +460,12 @@ footer {
     }
 }
 
+.profile-image {
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
 /*
     --------------------------------
     ----- 6. Experience Styles -----
@@ -515,7 +521,7 @@ footer {
     text-align: left;
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.2em;
         font-weight: 300;
         color: $heading;
         display: inline-block;
@@ -523,7 +529,7 @@ footer {
     }
 
     h4 {
-        font-size: 1.2em;
+        font-size: 1.0em;
         font-weight: 300;
         color: #7e8890;
         margin: 0 0 15px 0;
@@ -738,6 +744,10 @@ footer {
         margin: 0 0 15px 0;
         color: #fff;
         font-weight: 500;
+    }
+
+    a:link {
+      color: $base-color;
     }
 }
 
