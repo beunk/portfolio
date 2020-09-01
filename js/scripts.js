@@ -12,6 +12,19 @@
 
 (function($) {
 
+    //안드로이드 우측 버튼 비활성
+    $(document).bind("contextmenu", function(e) {
+        return false;
+     });
+
+    //pc F12 개발자도구 비활성
+    $(document).bind('keydown',function(e){
+        if ( e.keyCode == 123) {
+            e.preventDefault();
+            e.returnValue = false;
+        }
+    });
+
     // Remove no-js class
     $('html').removeClass('no-js');
 
