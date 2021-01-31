@@ -661,8 +661,8 @@ footer {
 
 .project-info {
     position: relative;
-    top: 100px; //50%;
-    transform: translateY(-50%);
+    top: auto; //50%;
+    //transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
 
